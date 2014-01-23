@@ -1,7 +1,7 @@
 jQuery URL ColorUP
 ===============
 
-I've made this plugin which allows it to automatically highlight URLs in textareas like those on Twitter.
+The plugin allows it to automatically highlight URLs in textareas like those on Twitter.
 
 You can find more information about this plugin below :
 
