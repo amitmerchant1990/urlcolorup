@@ -1,0 +1,32 @@
+{
+    "name": "urlcolorup",
+    "title": "URL ColorUP",
+    "description": "A jQuery plugin allows it to automatically highlight URLs in textareas like those on Twitter.",
+    "keywords": [
+        "urlcolorup",
+        "images",
+                "preview",
+                "gallery",
+                "captions"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Amit Merchant",
+        "url": "https://github.com/amitmerchant1990",
+        "email": "bullredeyes@gmail.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/amitmerchant1990/urlcolorup/issues",
+    "homepage": "http://amitmerchant1990.github.io/urlcolorup/",
+    "docs": "https://github.com/amitmerchant1990/urlcolorup#jquery-url-colorup",
+    "download": "https://github.com/amitmerchant1990/urlcolorup/zipball/master",
+    "demo": "https://github.com/amitmerchant1990/urlcolorup/zipball/master",
+    "dependencies": {
+        "jquery": ">=1.10"
+    }
+}
