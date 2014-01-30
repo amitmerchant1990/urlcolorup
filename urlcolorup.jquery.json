@@ -6,8 +6,8 @@
         "urlcolorup",
         "images",
                 "preview",
-                "gallery",
-                "captions"
+                "urls",
+                "textarea"
     ],
     "version": "1.0.0",
     "author": {
@@ -18,14 +18,14 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "http://opensource.org/licenses/MIT"
+            "url": "http://amitmerchant1990.mit-license.org/"
         }
     ],
     "bugs": "https://github.com/amitmerchant1990/urlcolorup/issues",
     "homepage": "http://amitmerchant1990.github.io/urlcolorup/",
-    "docs": "https://github.com/amitmerchant1990/urlcolorup#jquery-url-colorup",
+    "docs": "https://github.com/amitmerchant1990/urlcolorup/blob/master/README.md",
     "download": "https://github.com/amitmerchant1990/urlcolorup/zipball/master",
-    "demo": "https://github.com/amitmerchant1990/urlcolorup/zipball/master",
+    "demo": "http://www.jqueryscript.net/demo/Twitter-Like-URL-Highlighting-with-jQuery-urlcolorup-Plugin",
     "dependencies": {
         "jquery": ">=1.10"
     }
