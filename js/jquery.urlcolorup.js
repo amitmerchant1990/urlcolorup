@@ -1,8 +1,9 @@
 /*!
-  jQuery #urlcolorup v0.1
+	jQuery #urlcolorup v0.1
 	(c) 2013 Amit Merchant
 	updated: 2013-08-19
 	license: GNU LESSER GENERAL PUBLIC LICENSE
+	http://amitmerchant1990.github.io/urlcolorup
 */
 (function($) {
 	$.fn.urlcolorup = function() {
