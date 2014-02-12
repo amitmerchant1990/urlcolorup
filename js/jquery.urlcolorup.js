@@ -15,11 +15,17 @@
 			$(this).parent().parent().find(".highlighter").css("width",$(this).css("width"));
 			str = str.replace(/\n/g, '<br>');
 			
+			/* I'm not sure what this match was trying to do, so I'm taking it out
 			if(!str.match(/#([a-zA-Z0-9]+)#/g)) {
 				str = str.replace(/(https?:\/\/[^\s]+)/g,'<span class="url">$1</span>');
 			}else{
 				str = str.replace(/(https?:\/\/[^\s]+)(https?:\/\/[^\s]+)/g,'<span class="url">$1</span>');
 			}
+			And putting in the following three lines instead.
+			Now the plugin handles ftp and mailto URLs as well. */
+			str = str.replace(/(https?:\/\/[^\s<]+)/g,'<span class="url">$1</span>');
+			str = str.replace(/(ftp:\/\/[^\s<]+)/g,'<span class="url">$1</span>');
+			str = str.replace(/(mailto:[^\s<]+)/g,'<span class="url">$1</span>');
 			
 			$(this).parent().parent().find(".highlighter").html(str);
 		});
