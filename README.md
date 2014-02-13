@@ -1,4 +1,4 @@
-jQuery URL ColorUP
+jQuery URL ColorUP [![Build Status](https://travis-ci.org/amitmerchant1990/urlcolorup.png?branch=master)](https://travis-ci.org/amitmerchant1990/urlcolorup)
 ===============
 
 The plugin allows it to automatically highlight URLs in textareas like those on Twitter.
