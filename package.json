@@ -1,9 +1,11 @@
-"dependencies": {
-  "jQuery": "~1.7.3"
-},
-"devDependencies": {
-  "grunt": "~0.3.14"
-},
-"scripts": {
-  "test": "grunt travis --verbose"
+{
+    "dependencies": {
+      "jQuery": "~1.7.3"
+    },
+    "devDependencies": {
+      "grunt": "~0.3.14"
+    },
+    "scripts": {
+      "test": "grunt travis --verbose"
+    }
 }
