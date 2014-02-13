@@ -1,5 +1,5 @@
 /*!
-	jQuery #urlcolorup v0.1
+	jQuery #urlcolorup v1.0.3
 	(c) 2013 Amit Merchant
 	updated: 2013-08-19
 	license: GNU LESSER GENERAL PUBLIC LICENSE
@@ -9,7 +9,6 @@
 	$.fn.urlcolorup = function() {
 		$(this).wrap('<div class="jqueryUrlcolorup"><div class="highlighter"></div></div>').unwrap().before('<div class="highlighter"></div>').wrap('<div class="typehead"></div></div>');
 		$(this).addClass("theSelector");
-		//$(this).autosize({append: "\n"});
 		$(this).on("keyup", function() {
 			var str = $(this).val();
 			$(this).parent().parent().find(".highlighter").css("width",$(this).css("width"));
