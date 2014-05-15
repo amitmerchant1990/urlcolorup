@@ -15,5 +15,14 @@ Or
 
 <a href="http://www.jqueryscript.net/demo/Twitter-Like-URL-Highlighting-with-jQuery-urlcolorup-Plugin" target="_blank">Try demo!</a>
 
-
+<script src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=J7VPZNPJ6SSAL" 
+    data-button="donate" 
+    data-name="urlcolorup" 
+    data-quantity="1" 
+    data-amount="15" 
+    data-currency="USD" 
+    data-shipping="0.75" 
+    data-tax="3.50" 
+    data-callback="https://github.com/amitmerchant1990/urlcolorup"
+></script>
 
