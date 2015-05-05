@@ -18,5 +18,4 @@ Or
 Watch URL ColorUp in action
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: https://raw.githubusercontent.com/amitmerchant1990/urlcolorup/master/images/demo.gif
-   :alt: URL ColorUp
+![URL ColorUp](https://raw.githubusercontent.com/amitmerchant1990/urlcolorup/master/images/demo.gif)
