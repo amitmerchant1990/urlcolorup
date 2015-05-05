@@ -14,3 +14,9 @@ Find it on <a href="http://plugins.jquery.com/urlcolorup" target="_blank">jQuery
 Or
 
 <a href="http://www.jqueryscript.net/demo/Twitter-Like-URL-Highlighting-with-jQuery-urlcolorup-Plugin" target="_blank">Try demo!</a>
+
+Watch URL ColorUp in action
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: https://raw.githubusercontent.com/amitmerchant1990/urlcolorup/master/images/demo.gif
+   :alt: URL ColorUp
