@@ -15,6 +15,12 @@ Or
 
 <a href="http://www.jqueryscript.net/demo/Twitter-Like-URL-Highlighting-with-jQuery-urlcolorup-Plugin" target="_blank">Try demo!</a>
 
+Install
+=======
+```
+$ npm i jquery-url-colorup
+```
+
 Watch URL ColorUp in action
 ===============
 
