@@ -15,7 +15,7 @@
 			str = str.replace(/\n/g, '<br>');
 			
 			/* Added support for ftp: and mailto: statements also by @thekrugers */
-			str = str.replace(/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)/,'<span class="url">$1</span>');
+			str = str.replace(/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)/,'<span class="url">$1</span>'); //added to support non-rpototype URLs
 			str = str.replace(/(https?:\/\/[^\s<]+)/g,'<span class="url">$1</span>');
 			str = str.replace(/(ftp:\/\/[^\s<]+)/g,'<span class="url">$1</span>');
 			str = str.replace(/(mailto:[^\s<]+)/g,'<span class="url">$1</span>');
