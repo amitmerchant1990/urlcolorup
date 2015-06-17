@@ -15,6 +15,14 @@ Or
 
 <a href="http://www.jqueryscript.net/demo/Twitter-Like-URL-Highlighting-with-jQuery-urlcolorup-Plugin" target="_blank">Try demo!</a>
 
+Usage
+=====
+```javascript
+$(document).ready(function() {
+   $("textarea").urlcolorup();
+});
+```
+
 Install
 =======
 ```
