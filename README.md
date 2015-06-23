@@ -33,3 +33,7 @@ Watch URL ColorUp in action
 ===============
 
 ![URL ColorUp](https://raw.githubusercontent.com/amitmerchant1990/urlcolorup/master/images/demo.gif)
+
+Donations
+=========
+<a href='https://pledgie.com/campaigns/29572'><img alt='Click here to lend your support to: jQuery URL ColorUP and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29572.png?skin_name=chrome' border='0' ></a>
