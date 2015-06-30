@@ -25,9 +25,7 @@ $(document).ready(function() {
 
 Install
 =======
-```
-$ npm i jquery-url-colorup
-```
+[![NPM](https://nodei.co/npm/jquery-url-colorup.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jquery-url-colorup/)
 
 Watch URL ColorUp in action
 ===============
