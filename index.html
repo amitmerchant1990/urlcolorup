@@ -1,76 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <title>URL ColorUP in textarea by amitmerchant1990</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
-
   <body>
-    <header>
-      <div class="inner">
+
+      <header>
         <h1>URL ColorUP in textarea</h1>
-        <h2>jQuery URL ColorUP</h2>
-        <a href="https://github.com/amitmerchant1990/urlcolorup" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+        <p>jQuery URL ColorUP</p>
+      </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h2>
-<a name="jquery-url-colorup" class="anchor" href="#jquery-url-colorup"><span class="octicon octicon-link"></span></a>jQuery URL ColorUP</h2>
+      <div id="banner">
+        <span id="logo"></span>
 
-<p>This jQuery plugin allows it to automatically highlight URLs in textareas like those on Twitter.</p>
+        <a href="https://github.com/amitmerchant1990/urlcolorup" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/amitmerchant1990/urlcolorup/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/amitmerchant1990/urlcolorup/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
 
-<h2>
-<a name="how-to-use-jquery-urlcolorup" class="anchor" href="#how-to-use-jquery-urlcolorup"><span class="octicon octicon-link"></span></a>How to use jQuery URLcolorUP</h2>
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="jquery-url-colorup-" class="anchor" href="#jquery-url-colorup-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>jQuery URL ColorUP <a href="https://travis-ci.org/amitmerchant1990/urlcolorup"><img src="https://travis-ci.org/amitmerchant1990/urlcolorup.png?branch=master" alt="Build Status"></a>
+</h1>
 
-<p>If you want to use this jQuery plugin, simply add those lines to the <code>&lt;head&gt;</code> part of your website:</p>
+<p>The plugin allows it to automatically highlight URLs in textareas like those on Twitter.</p>
 
-<pre><code>&lt;script src="js/jquery-1.10.2.min.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="js/jquery.autosize.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="js/jquery.urlcolorup.js" type="text/javascript"&gt;&lt;/script&gt;
-</code></pre>
+<p>Pull requests are always welcomed if you find any bugs or you want to make it better.</p>
 
-<p>Warning: Do not include js/jquery-1.10.2.min.js if you already included jQuery to your website!</p>
+<p>You can find more information about this plugin below :</p>
 
-<p>After including the neccessary files, you can simply add jQuery URLcolorUP to an existing <code>&lt;textarea&gt;</code> by using this code (inside an appropriate <code>&lt;script&gt;</code>-element):</p>
+<p><a href="http://amitmerchant1990.github.io/urlcolorup/">Offcial Plugin Page</a></p>
 
-<div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-   <span class="nx">$</span><span class="p">(</span><span class="s2">"textarea"</span><span class="p">).</span><span class="nx">urlcolorup</span><span class="p">();</span>
-<span class="p">});</span>
-</pre></div>
-        </section>
+<p>Find it on <a href="http://plugins.jquery.com/urlcolorup">jQuery Plugin Registry</a></p>
 
-        <aside id="sidebar">
-          <a href="https://github.com/amitmerchant1990/urlcolorup/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/amitmerchant1990/urlcolorup/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+<p>Or</p>
 
-          <p class="repo-owner"><a href="https://github.com/amitmerchant1990/urlcolorup"></a> is maintained by <a href="https://github.com/amitmerchant1990">amitmerchant1990</a>.</p>
+<p><a href="http://www.jqueryscript.net/demo/Twitter-Like-URL-Highlighting-with-jQuery-urlcolorup-Plugin">Try demo!</a></p>
 
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+<h1>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h1>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-c1">document</span>).<span class="pl-en">ready</span>(<span class="pl-k">function</span>() {
+   <span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>textarea<span class="pl-pds">"</span></span>).<span class="pl-en">urlcolorup</span>();
+});</pre></div>
+
+<h1>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install</h1>
+
+<p><a href="https://nodei.co/npm/jquery-url-colorup/"><img src="https://nodei.co/npm/jquery-url-colorup.png?downloads=true&amp;downloadRank=true&amp;stars=true" alt="NPM"></a></p>
+
+<h1>
+<a id="watch-url-colorup-in-action" class="anchor" href="#watch-url-colorup-in-action" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Watch URL ColorUp in action</h1>
+
+<p><img src="https://raw.githubusercontent.com/amitmerchant1990/urlcolorup/master/images/demo.gif" alt="URL ColorUp"></p>
+
+<h1>
+<a id="donations" class="anchor" href="#donations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donations</h1>
+
+<p><a href="https://pledgie.com/campaigns/29572"><img alt="Click here to lend your support to: jQuery URL ColorUP and make a donation at pledgie.com !" src="https://pledgie.com/campaigns/29572.png?skin_name=chrome" border="0"></a></p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/amitmerchant1990">amitmerchant1990</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
-
-            <script type="text/javascript">
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
